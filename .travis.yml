@@ -4,3 +4,9 @@ rvm:
 before_install: gem install bundler -v 1.10.3
 
 script: rake test
+
+notifications:
+  emails:
+    - a1521hk@aiit.ac.jp
+  on_success: always
+  on_failure: always
