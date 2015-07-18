@@ -6,7 +6,7 @@ module A1521hkMinitestPractice
       if n % 2 == 1 
         return true
       else
-        return false
+#        return false
       end
     end
 
